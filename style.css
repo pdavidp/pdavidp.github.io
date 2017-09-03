@@ -3,16 +3,38 @@ body {
     font-family: "Open Sans",arial,sans-serif;
 }
 
+h1 {
+    -webkit-margin-before: 0em;
+    -webkit-margin-start: 0.5em;
+    -webkit-margin-end: 0.5em;
+}
+
 img.primary-icon {
     float:right;
     border-radius: 100px;
 }
 
 iframe.youtube {
+    border: 0.5em solid rgba(255, 255, 255, 0);
 }
 
-.photo {
-    max-height: 20em;
+a.highlight {
+    border: 0.5em solid rgba(255, 255, 255, 0);
+    display: block;
+}
+
+iframe.youtube:hover {
+    border: 0.5em solid #9393f1;
+}
+
+a.highlight:hover {
+    border: 0.5em solid #9393f1;
+    display: block;
+}
+
+img.photo {
+    max-height: 25em;
+    max-width: 35em;
 }
 
 section.tile {
@@ -21,4 +43,5 @@ section.tile {
     margin: 1em;
     display: inline-block;
     border-radius: 10px;
+    vertical-align: top;
 }
