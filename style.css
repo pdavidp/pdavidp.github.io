@@ -1,0 +1,24 @@
+body {
+    background-color: #a2a2a2;
+    font-family: "Open Sans",arial,sans-serif;
+}
+
+img.primary-icon {
+    float:right;
+    border-radius: 100px;
+}
+
+iframe.youtube {
+}
+
+.photo {
+    max-height: 20em;
+}
+
+section.tile {
+    background-color: #e6e6ff;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+    border-radius: 10px;
+}
