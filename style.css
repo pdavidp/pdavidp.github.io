@@ -30,11 +30,17 @@ iframe.youtube:hover {
 a.highlight:hover {
     border: 0.5em solid #9393f1;
     display: block;
+    max-width: 100%;
 }
 
 img.photo {
     max-height: 25em;
     max-width: 35em;
+}
+
+img.pano {
+    max-height: 25em;
+    max-width: 100%;
 }
 
 section.tile {
@@ -44,4 +50,5 @@ section.tile {
     display: inline-block;
     border-radius: 10px;
     vertical-align: top;
+    max-width: 100%;
 }
