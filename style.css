@@ -43,6 +43,7 @@ img.pano {
     max-width: 100%;
 }
 
+/* the tile containing all the content */
 section.tile {
     background-color: #e6e6ff;
     padding: 1em;
