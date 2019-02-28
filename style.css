@@ -1,6 +1,10 @@
 /* flex formats */
 a, h2, h3, container, section { /* needed because this defaults to inline or block */
-  display: flex;
+    display: flex;
+}
+
+a.highlight {
+    margin: auto;
 }
 
 container {
